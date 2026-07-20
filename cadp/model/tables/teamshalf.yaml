@@ -1,0 +1,8 @@
+tables:
+  - name: teamshalf
+    title: teamshalf
+    sql: {{ load_sql('teamshalf') }}
+    description: Semantic view for teamshalf.
+    public: true
+    dimensions: []
+    measures: []

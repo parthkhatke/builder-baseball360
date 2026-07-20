@@ -1,0 +1,41 @@
+version: v1beta
+entity: product
+type: data
+tags:
+  - DPTier.Consumer Aligned
+  - SemanticModelAgent
+v1beta:
+  data:
+    meta:
+      title: ab sbebabslobaos
+      sourceCodeUrl: https://github.com/parthkhatke/builder-baseball360
+    collaborators:
+      - name: parthkhatke
+        description: owner
+    resource:
+      description: akjdbajdbnoanfafpaf
+      refType: dataos
+      type: bundle
+      version: v1beta
+      ref: bundle:v1beta:ab-sbebabslobaos
+    inputs:
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://lahmanbaseballpg:public/teamshalf
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://lahmanbaseballpg:public/seriespost
+    ports:
+      lens:
+        ref: lens:v1alpha:ab-sbebabslobaos-lens:public
+        refType: dataos
+        meta:
+          description: ab sbebabslobaos semantic model providing unified access to curated
+            metrics and dimensions for this data product.
+name: ab-sbebabslobaos
+purpose: akjdbajdbnoanfafpaf
+description: akjdbajdbnoanfafpaf
+workspace: public
+owner: parthkhatke

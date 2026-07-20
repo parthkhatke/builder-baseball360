@@ -1,0 +1,8 @@
+tables:
+  - name: seriespost
+    title: seriespost
+    sql: {{ load_sql('seriespost') }}
+    description: Semantic view for seriespost.
+    public: true
+    dimensions: []
+    measures: []
