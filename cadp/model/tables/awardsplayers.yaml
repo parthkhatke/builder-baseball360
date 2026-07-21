@@ -1,0 +1,8 @@
+tables:
+  - name: awardsplayers
+    title: awardsplayers
+    sql: {{ load_sql('awardsplayers') }}
+    description: Semantic view for awardsplayers.
+    public: true
+    dimensions: []
+    measures: []

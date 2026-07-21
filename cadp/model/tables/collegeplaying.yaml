@@ -1,0 +1,8 @@
+tables:
+  - name: collegeplaying
+    title: collegeplaying
+    sql: {{ load_sql('collegeplaying') }}
+    description: Semantic view for collegeplaying.
+    public: true
+    dimensions: []
+    measures: []
