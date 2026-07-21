@@ -1,0 +1,57 @@
+version: v1beta
+entity: product
+type: data
+tags:
+  - DPTier.Consumer Aligned
+  - SemanticModelAgent
+v1beta:
+  data:
+    meta:
+      title: base-ball-365
+      sourceCodeUrl: https://github.com/parthkhatke/builder-baseball360
+    collaborators:
+      - name: parthkhatke
+        description: owner
+    resource:
+      description: this is baseball 360 hands on
+      refType: dataos
+      type: bundle
+      version: v1beta
+      ref: bundle:v1beta:base-ball-365
+    inputs:
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://lahmanbaseballpg:public/allstarfull
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://lahmanbaseballpg:public/appearances
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://lahmanbaseballpg:public/awardssharemanagers
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://lahmanbaseballpg:public/awardsplayers
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://lahmanbaseballpg:public/batting
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://lahmanbaseballpg:public/battingpost
+    ports:
+      lens:
+        ref: lens:v1alpha:base-ball-365-lens:public
+        refType: dataos
+        meta:
+          description: base-ball-365 semantic model providing unified access to curated
+            metrics and dimensions for this data product.
+name: base-ball-365
+purpose: this is baseball 360 hands on
+description: this is baseball 360 hands on
+workspace: public
+owner: parthkhatke

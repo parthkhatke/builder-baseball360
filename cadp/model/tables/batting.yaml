@@ -1,0 +1,8 @@
+tables:
+  - name: batting
+    title: batting
+    sql: {{ load_sql('batting') }}
+    description: Semantic view for batting.
+    public: true
+    dimensions: []
+    measures: []
