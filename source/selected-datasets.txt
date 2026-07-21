@@ -1,0 +1,1 @@
+lahmanbaseballpg.neondb.public.allstarfull,lahmanbaseballpg.neondb.public.appearances,lahmanbaseballpg.neondb.public.awardssharemanagers,lahmanbaseballpg.neondb.public.awardsplayers,lahmanbaseballpg.neondb.public.batting,lahmanbaseballpg.neondb.public.battingpost
