@@ -1,8 +1,0 @@
-tables:
-  - name: awardssharemanagers
-    title: awardssharemanagers
-    sql: {{ load_sql('awardssharemanagers') }}
-    description: Semantic view for awardssharemanagers.
-    public: true
-    dimensions: []
-    measures: []
