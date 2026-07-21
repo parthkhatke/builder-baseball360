@@ -1,1 +1,0 @@
-lahmanbaseballpg.neondb.public.teamshalf,lahmanbaseballpg.neondb.public.seriespost
