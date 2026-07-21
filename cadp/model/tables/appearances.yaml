@@ -1,8 +1,0 @@
-tables:
-  - name: appearances
-    title: appearances
-    sql: {{ load_sql('appearances') }}
-    description: Semantic view for appearances.
-    public: true
-    dimensions: []
-    measures: []

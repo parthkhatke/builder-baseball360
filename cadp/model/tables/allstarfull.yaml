@@ -1,8 +1,0 @@
-tables:
-  - name: allstarfull
-    title: allstarfull
-    sql: {{ load_sql('allstarfull') }}
-    description: Semantic view for allstarfull.
-    public: true
-    dimensions: []
-    measures: []
