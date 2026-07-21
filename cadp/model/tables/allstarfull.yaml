@@ -4,5 +4,10 @@ tables:
     sql: {{ load_sql('allstarfull') }}
     description: Semantic view for allstarfull.
     public: true
-    dimensions: []
+    dimensions:
+      - name: yearid
+        type: string
+        column: yearid
+        description: "some "
+        public: true
     measures: []
