@@ -1,1 +1,1 @@
-postgrescore.neondb,lahmanbaseballpg.neondb
+postgrescore.neondb,lahmanbaseballpg.neondb,neon.neon
