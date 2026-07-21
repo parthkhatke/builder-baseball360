@@ -4,5 +4,10 @@ tables:
     sql: {{ load_sql('awardsmanagers') }}
     description: Semantic view for awardsmanagers.
     public: true
-    dimensions: []
+    dimensions:
+      - name: yearid
+        type: string
+        column: yearid
+        description: jvy
+        public: true
     measures: []
