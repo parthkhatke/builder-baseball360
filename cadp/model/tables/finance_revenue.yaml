@@ -1,8 +1,0 @@
-tables:
-  - name: finance_revenue
-    title: finance_revenue
-    sql: {{ load_sql('finance_revenue') }}
-    description: Semantic view for finance_revenue.
-    public: true
-    dimensions: []
-    measures: []

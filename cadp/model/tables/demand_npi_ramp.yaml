@@ -1,8 +1,0 @@
-tables:
-  - name: demand_npi_ramp
-    title: demand_npi_ramp
-    sql: {{ load_sql('demand_npi_ramp') }}
-    description: Semantic view for demand_npi_ramp.
-    public: true
-    dimensions: []
-    measures: []

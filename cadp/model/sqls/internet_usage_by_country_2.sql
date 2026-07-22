@@ -1,1 +1,0 @@
-SELECT * FROM icebase.builderuploads.internet_usage_by_country_2

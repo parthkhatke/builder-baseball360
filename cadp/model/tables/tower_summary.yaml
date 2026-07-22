@@ -1,8 +1,0 @@
-tables:
-  - name: tower_summary
-    title: tower_summary
-    sql: {{ load_sql('tower_summary') }}
-    description: Semantic view for tower_summary.
-    public: true
-    dimensions: []
-    measures: []

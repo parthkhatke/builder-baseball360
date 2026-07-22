@@ -1,8 +1,0 @@
-tables:
-  - name: supply_mrp
-    title: supply_mrp
-    sql: {{ load_sql('supply_mrp') }}
-    description: Semantic view for supply_mrp.
-    public: true
-    dimensions: []
-    measures: []

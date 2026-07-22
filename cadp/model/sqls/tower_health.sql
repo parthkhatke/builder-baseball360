@@ -1,1 +1,0 @@
-SELECT * FROM icebase.supply_chain_management.tower_health

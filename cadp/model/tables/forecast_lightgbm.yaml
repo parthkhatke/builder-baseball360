@@ -1,8 +1,0 @@
-tables:
-  - name: forecast_lightgbm
-    title: forecast_lightgbm
-    sql: {{ load_sql('forecast_lightgbm') }}
-    description: Semantic view for forecast_lightgbm.
-    public: true
-    dimensions: []
-    measures: []

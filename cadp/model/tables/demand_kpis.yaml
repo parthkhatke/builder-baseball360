@@ -1,8 +1,0 @@
-tables:
-  - name: demand_kpis
-    title: demand_kpis
-    sql: {{ load_sql('demand_kpis') }}
-    description: Semantic view for demand_kpis.
-    public: true
-    dimensions: []
-    measures: []

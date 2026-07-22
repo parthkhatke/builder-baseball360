@@ -1,8 +1,0 @@
-tables:
-  - name: forecast_holt_winters
-    title: forecast_holt_winters
-    sql: {{ load_sql('forecast_holt_winters') }}
-    description: Semantic view for forecast_holt_winters.
-    public: true
-    dimensions: []
-    measures: []
