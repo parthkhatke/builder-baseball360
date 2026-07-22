@@ -1,1 +1,0 @@
-SELECT * FROM icebase.builderuploads.metadata_country_123
