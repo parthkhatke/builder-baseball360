@@ -1,0 +1,8 @@
+tables:
+  - name: tower_orders
+    title: tower_orders
+    sql: {{ load_sql('tower_orders') }}
+    description: Semantic view for tower_orders.
+    public: true
+    dimensions: []
+    measures: []

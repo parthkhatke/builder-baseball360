@@ -1,0 +1,8 @@
+tables:
+  - name: metadata_internet_usage_country_2
+    title: metadata_internet_usage_country_2
+    sql: {{ load_sql('metadata_internet_usage_country_2') }}
+    description: Semantic view for metadata_internet_usage_country_2.
+    public: true
+    dimensions: []
+    measures: []

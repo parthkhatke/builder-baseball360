@@ -1,0 +1,93 @@
+version: v1beta
+entity: product
+type: data
+tags:
+  - DPTier.Consumer Aligned
+  - SemanticModelAgent
+v1beta:
+  data:
+    meta:
+      title: basebaslll
+      sourceCodeUrl: https://github.com/parthkhatke/builder-baseball360
+    collaborators:
+      - name: parthkhatke
+        description: owner
+    resource:
+      description: this is baseball
+      refType: dataos
+      type: bundle
+      version: v1beta
+      ref: bundle:v1beta:basebaslll
+    inputs:
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:builderuploads/internet_usage_by_country_2
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/demand_weekly
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/forecast_lightgbm
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/demand_abc
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/demand_npi_ramp
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/tower_health
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/demand_kpis
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:builderuploads/metadata_internet_usage_country_2
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:builderuploads/metadata_country_123
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/inventory_skus
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/finance_revenue
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/tower_summary
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/tower_orders
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/supply_mrp
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:supply_chain_management/forecast_holt_winters
+    ports:
+      lens:
+        ref: lens:v1alpha:basebaslll-lens:public
+        refType: dataos
+        meta:
+          description: basebaslll semantic model providing unified access to curated
+            metrics and dimensions for this data product.
+name: basebaslll
+purpose: this is baseball
+description: this is baseball
+workspace: public
+owner: parthkhatke

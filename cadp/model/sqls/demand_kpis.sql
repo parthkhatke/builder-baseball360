@@ -1,0 +1,1 @@
+SELECT * FROM icebase.supply_chain_management.demand_kpis

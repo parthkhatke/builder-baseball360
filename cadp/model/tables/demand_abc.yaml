@@ -1,0 +1,8 @@
+tables:
+  - name: demand_abc
+    title: demand_abc
+    sql: {{ load_sql('demand_abc') }}
+    description: Semantic view for demand_abc.
+    public: true
+    dimensions: []
+    measures: []

@@ -1,0 +1,8 @@
+tables:
+  - name: tower_health
+    title: tower_health
+    sql: {{ load_sql('tower_health') }}
+    description: Semantic view for tower_health.
+    public: true
+    dimensions: []
+    measures: []

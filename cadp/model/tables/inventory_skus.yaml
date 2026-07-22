@@ -1,0 +1,8 @@
+tables:
+  - name: inventory_skus
+    title: inventory_skus
+    sql: {{ load_sql('inventory_skus') }}
+    description: Semantic view for inventory_skus.
+    public: true
+    dimensions: []
+    measures: []

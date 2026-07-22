@@ -1,0 +1,1 @@
+SELECT * FROM icebase.builderuploads.metadata_internet_usage_country_2
