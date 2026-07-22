@@ -1,0 +1,8 @@
+tables:
+  - name: demand_weekly
+    title: demand_weekly
+    sql: {{ load_sql('demand_weekly') }}
+    description: Semantic view for demand_weekly.
+    public: true
+    dimensions: []
+    measures: []
